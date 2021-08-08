@@ -1,0 +1,25 @@
+{
+    "name": "webservice-automation",
+    "version": "1.0.0",
+    "description": "``` npm install ```",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --config ./tests/config/mocha.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ZheKiChan/webservice-automation.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ZheKiChan/webservice-automation/issues"
+    },
+    "homepage": "https://github.com/ZheKiChan/webservice-automation#readme",
+    "dependencies": {
+        "chai": "^4.3.4",
+        "mocha": "^9.0.3",
+        "mochawesome": "^6.2.2",
+        "node-fetch": "^2.6.1"
+    }
+}
